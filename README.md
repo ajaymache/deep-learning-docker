@@ -15,7 +15,7 @@ A container is a runtime instance of an image — what the image becomes in memo
 Using containers, everything required to make a piece of software run is packaged into isolated containers. Unlike VMs, containers do not bundle a full operating system - only libraries and settings required to make the software work are needed. This makes for efficient, lightweight, self-contained systems and guarantees that software will always run the same, regardless of where it’s deployed. To learn more about containers click [here](https://www.docker.com/what-container).
 
 ## Installing docker
-Install the docker application following the installation guide for your platform from [there] (https://docs.docker.com/engine/installation/)
+Install the docker application following the installation guide for your platform from [here](https://docs.docker.com/engine/installation/)
 
 
 Update README.md
