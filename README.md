@@ -18,9 +18,9 @@ Using containers, everything required to make a piece of software run is package
 Install the docker application following the installation guide for your platform from [here](https://docs.docker.com/engine/installation/)
 
 ## Setting up the environment
-The Docker Engine client runs natively on Linux, macOS, and Windows. By default, these clients connect to a local Docker daemon running in a virtual environment managed by Docker, which provides the required features to run Linux-based containers within OS X or Windows, or Windows-based containers on Windows.
+The Docker Engine client runs natively on **Linux**, **macOS**, and **Windows**. By default, these clients connect to a local Docker daemon running in a virtual environment managed by Docker, which provides the required features to run Linux-based containers within OS X or Windows, or Windows-based containers on Windows.
 
-The steps mentioned below are performed with the docker application installed on OSX (macOS). Following the steps mentioned below, you should be able to setup a customized docker image and push to [dockerhub](https://hub.docker.com/) 
+The steps mentioned below are performed with the docker application installed on **OSX (macOS)**. Following the steps mentioned below, you should be able to setup a customized docker image and push to [dockerhub](https://hub.docker.com/).
 
 Update README.md
 
