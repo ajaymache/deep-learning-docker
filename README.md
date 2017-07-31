@@ -17,7 +17,8 @@ Using containers, everything required to make a piece of software run is package
 ## Installing docker
 Install the docker application following the installation guide for your platform from [here](https://docs.docker.com/engine/installation/)
 
-## Setting
+## Setting up the environment
+Following the steps mentioned below, you should be able to setup a customized docker image and push to [dockerhub](https://hub.docker.com/) 
 
 Update README.md
 
