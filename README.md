@@ -26,8 +26,8 @@ Install the docker application following the installation guide for your platfor
 - While making a custom docker image most of the times you will encounter that one usually starts with a base image. Here we will be using **ubuntu** as our base image.
 - Please note that we **do not** have to make the ubuntu image from scratch since its already been officially made by the community and we can use the same image as the starting point or base for creating our own image.
 - To get **ubuntu** as the base image from the public repository on dockerhub do the following steps:
-1. Open terminal
-2. 
+  1. Open terminal
+  2. 
 
 Update README.md
 
