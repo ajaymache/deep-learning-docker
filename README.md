@@ -37,6 +37,7 @@ Install the docker application following the installation guide for your platfor
   1. Open terminal
   2. To check if docker daemon is running type the following command in the terminal:
   
+  
   ```docker
   docker version
   ```
@@ -54,6 +55,7 @@ Install the docker application following the installation guide for your platfor
 
      
   3. Proceed from here only if your docker is running as mentioned above. Since we have started the docker application for the      first time we do not have any images yet. Lets confirm that by typing the following command in the terminal:
+  
   
   ```docker
   docker images
