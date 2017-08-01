@@ -34,6 +34,7 @@ Install the docker application following the installation guide for your platfor
 - Please note that we **do not** have to make the ubuntu image from scratch since its already been officially made by the community and we can use the same image as the starting point or base for creating our own image.
 
 - To get **ubuntu** as the base image from the public repository on dockerhub do the following steps:
+
   **1.** Open terminal
   **2.** To check if docker daemon is running type the command ```docker version``` in the terminal. You should see something like as shown in the snapshot below:
      
