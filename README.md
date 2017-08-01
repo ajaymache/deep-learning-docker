@@ -41,6 +41,19 @@ Install the docker application following the installation guide for your platfor
   ```
      You should see something like as shown in the snapshot below:
      ![SNAPSHOT]()
+     If you get an error make sure your docker application is running by looking for the whale icon in the upper task bar as        shown in the snapshot below.
+     ![SNAPSHOT]()
+  3. Proceed from here only if your docker is running as mentioned above. Since we have started the docker application for the      first time we do not have any images yet. Lets confirm that by typing the following command in the terminal:
+  ```docker
+  docker images
+  ```
+      You will notice that nothing is listed which confirms that we do not have any images.
+  4. To get the ubuntu image as the base image type the following command in the terminal:
+  ```docker
+  docker search ubuntu
+  ```
+  
+  
 
 Update README.md
 
