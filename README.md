@@ -50,12 +50,7 @@ Install the docker application following the installation guide for your platfor
      
   3. Proceed from here only if your docker is running as mentioned above. Since we have started the docker application for the      first time we do not have any images yet. Lets confirm that by typing the command ```docker images``` in the terminal. You will notice that nothing is listed which confirms that we do not have any images.
       
-  4. To get the ubuntu image as the base image type the following command in the terminal:
-  
-  ```docker
-  docker pull ubuntu
-  ```
-     This might take a while depending on your internet speed because it is fetching the image from the dockerhub which is  available publicy for use. You should see the download progressing as shown below:
+  4. To get the ubuntu image as the base image type the command ```docker pull ubuntu``` in the terminal. This might take a while depending on your internet speed because it is fetching the image from the dockerhub which is  available publicy for use. You should see the download progressing as shown below:
      
      <p align="center">
   <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-07-31%20at%207.42.14%20PM.png">
