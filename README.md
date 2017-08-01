@@ -64,6 +64,14 @@ Install the docker application following the installation guide for your platfor
   <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-07-31%20at%207.42.14%20PM.png">
   </p>
   
+### Running a container from an image
+In this section we will spin up a container from the base image **ubuntu** which we just pulled from the dockerhub.
 
-Update README.md
+**1.** To run the **ubuntu** image type the command ```docker run -it ubuntu``` in the terminal. Note how the terminal changes pointing to the container which we spinned up just now as shown below:
+
+<p align="center">
+  <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-07-31%20at%207.42.14%20PM.png">
+  </p>
+  
+  
 
