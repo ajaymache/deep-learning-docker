@@ -43,7 +43,7 @@ Install the docker application following the installation guide for your platfor
      You should see something like as shown in the snapshot below:
      
   <p align="center">
-  <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-07-31%20at%207.42.14%20PM.png>
+  <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-07-31%20at%207.42.14%20PM.png">
   </p>
      
     If you get an error make sure your docker application is running by looking for the whale icon in the upper task bar as       shown in the snapshot below.
