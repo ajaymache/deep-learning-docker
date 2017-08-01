@@ -43,7 +43,7 @@ Install the docker application following the installation guide for your platfor
      You should see something like as shown in the snapshot below:
      
   <p align="center">
-  <img width="460" height="300" src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-07-31%20at%207.42.14%20PM.png>
+  <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-07-31%20at%207.42.14%20PM.png>
   </p>
   
   
