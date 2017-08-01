@@ -41,7 +41,7 @@ Install the docker application following the installation guide for your platfor
   <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-07-31%20at%207.42.14%20PM.png">
   </p>
      
-    If you get an error make sure your docker application is running by looking for the whale icon in the upper task bar as shown in the snapshot below.
+    If you get an error make sure your docker application is running by looking for the whale icon in the upper task bar as shown in the snapshot below:
      
   <p align="center">
   <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-07-31%20at%207.53.48%20PM.png">
@@ -52,7 +52,7 @@ Install the docker application following the installation guide for your platfor
       
   4. To get the ubuntu image as the base image type the command ```docker pull ubuntu``` in the terminal. This might take a while depending on your internet speed because it is fetching the image from the dockerhub which is  available publicy for use. You should see the download progressing as shown below:
      
-     <p align="center">
+  <p align="center">
   <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-07-31%20at%207.42.14%20PM.png">
   </p>
      
