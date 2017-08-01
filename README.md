@@ -36,6 +36,7 @@ Install the docker application following the installation guide for your platfor
 - To get **ubuntu** as the base image from the public repository on dockerhub do the following steps:
 
   **1.** Open terminal
+  
   **2.** To check if docker daemon is running type the command ```docker version``` in the terminal. You should see something like as shown in the snapshot below:
      
   <p align="center">
