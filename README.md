@@ -53,7 +53,7 @@ Install the docker application following the installation guide for your platfor
   ```docker
   docker images
   ```
-      You will notice that nothing is listed which confirms that we do not have any images.
+     You will notice that nothing is listed which confirms that we do not have any images.
       
   4. To get the ubuntu image as the base image type the following command in the terminal:
   
