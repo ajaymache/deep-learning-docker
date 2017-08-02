@@ -61,7 +61,7 @@ This repository aims at getting you started with [docker](https://www.docker.com
   **5.** Now type ```docker images``` as mentioned in step 3 to see the list of images you have downloaded on your machine. You should see something like as shown in the snapshot below:
   
   <p align="center">
-  <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-07-31%20at%207.42.14%20PM.png">
+  <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-08-01%20at%208.21.01%20PM.png">
   </p>
   
 ### Running a container from an image
