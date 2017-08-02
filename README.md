@@ -96,5 +96,7 @@ This repository aims at getting you started with [docker](https://www.docker.com
   apt-get install -y bzip2
   ```
   
-  This command will get the **bzip2** package which will be required to decompress some of the Anaconda files which we will see in the next section.
+  This command will get the **bzip2** package which will be required to decompress some of the **Anaconda** files which we will see in the next section.
 
+### Installing Anaconda
+- 
