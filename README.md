@@ -21,7 +21,7 @@ This repository aims at getting you started with [docker](https://www.docker.com
 - This makes for efficient, lightweight, self-contained systems and guarantees that software will always run the same, regardless of where it’s deployed. To learn more about containers click [here](https://www.docker.com/what-container).
 
 ## Installing docker
-Install the docker application following the installation guide for your platform from [here](https://docs.docker.com/engine/installation/)
+- Install the docker application following the installation guide for your platform from [here](https://docs.docker.com/engine/installation/)
 
 ## Setting up the environment
 - The Docker Engine client runs natively on **Linux**, **macOS**, and **Windows**. By default, these clients connect to a local Docker daemon running in a virtual environment managed by Docker, which provides the required features to run Linux-based containers within OS X or Windows, or Windows-based containers on Windows.
@@ -65,9 +65,9 @@ Install the docker application following the installation guide for your platfor
   </p>
   
 ### Running a container from an image
-In this section we will spin up a container from the base image **ubuntu** which we just pulled from the dockerhub.
+- In this section we will spin up a container from the base image **ubuntu** which we just pulled from the dockerhub.
 
-**1.** To run the **ubuntu** image type the command ```docker run -it ubuntu``` in the terminal. Note how the terminal changes pointing to the container which we spinned up just now as shown below:
+ **1.** To run the **ubuntu** image type the command ```docker run -it ubuntu``` in the terminal. Note how the terminal changes pointing to the container which we spinned up just now as shown below:
 
 <p align="center">
   <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-07-31%20at%207.42.14%20PM.png">
