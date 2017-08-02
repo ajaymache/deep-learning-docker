@@ -140,6 +140,19 @@ This repository aims at getting you started with [docker](https://www.docker.com
   
   which jupyter
   ```
+  
+  **4.** To update **pip** type ```pip install --upgrade pip``` in the terminal, since we would be using it to install other libraries it is good to have the latest updates fetched.
 
 ### Installing deep learning frameworks
 - In this section we will be installing the most popular deep learning framework **TensorFlow** and **keras**. Note that while installing keras **Theano** another deep learning library will also be installed as its a dependency for keras. With these being installed you should be able to build most of your deep neural nets. Also note that this installation is for **CPU** version of **TensorFlow** only.
+
+  **1.** Before we install TensorFlow, as the official documentation suggests we will create a seperate conda environment. To do so type ```conda create -n tensorflow```. You will be asked to confirm for the environment location where this new environment will be created say **yes** to proceed. This might take few seconds.
+  
+  **2.** Now to enter the environment we just created type ```source activate tensorflow``` in the terminal. We will now install tensorflow and keras in this environment.
+  
+  **3.** To install tensorflow type the following command in the terminal:
+  ```bash
+  pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.2.1-cp35-cp35m-linux_x86_64.whl
+  ```
+  
+  
