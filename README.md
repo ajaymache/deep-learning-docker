@@ -73,7 +73,7 @@ This repository aims at getting you started with [docker](https://www.docker.com
   <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-08-01%20at%208.21.01%20PM.png">
   </p>
   
-  **2** In order to install the required machine learning/deep learning libraries and frameworks we frist need some tools since the ubuntu image we pulled is very basic and essentially comes only with the kernel and hence it is light weight which is the basically the whole idea of docker. Execute the following commands sequentially one after the other in the terminal to get the required tools.
+  **2.** In order to install the required machine learning/deep learning libraries and frameworks we frist need some tools since the ubuntu image we pulled is very basic and essentially comes only with the kernel and hence it is light weight which is the basically the whole idea of docker. Execute the following commands sequentially one after the other in the terminal to get the required tools.
   
   ```bash
   apt-get update
@@ -81,4 +81,7 @@ This repository aims at getting you started with [docker](https://www.docker.com
   
   This command will get the latest updates if any. Below is the output after running this command in the terminal:
   
+  <p align="center">
+  <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-08-01%20at%208.26.12%20PM.png">
+  </p>
 
