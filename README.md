@@ -154,5 +154,19 @@ This repository aims at getting you started with [docker](https://www.docker.com
   ```bash
   pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.2.1-cp35-cp35m-linux_x86_64.whl
   ```
+  **4.** To check tensorflow installation invoke the python kernel by typing ```python``` in the terminal first then type the following commands sequentially.
+  
+  ```python
+  import tensorflow as tf
+  hello = tf.constant('Hello, TensorFlow!')
+  sess = tf.Session()
+  print(sess.run(hello))
+  ```
+  
+  If the system outputs ```b'Hello, TensorFlow!'``` then you are ready to begin writing TensorFlow programs.
+  
+  :warning: You might get some warnings related to tensorflow not being compiled to use multiple CPU cores available on your machine. You can ignore them for now.  
+  
+  
   
   
