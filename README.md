@@ -99,10 +99,10 @@ This repository aims at getting you started with [docker](https://www.docker.com
   This command will get the **bzip2** package which will be required to decompress some of the **Anaconda** files which we will see in the next section.
 
 ### Installing Anaconda
-- To avoid installing every library individually we will download Anaconda 4.2 with Python 3.5.
+- To avoid installing every library individually we will download and install Anaconda 4.2 with Python 3.5.
 
  **1.** To create a **Downloads** folder in the **home** directory type ```mkdir home/Downloads``` in the terminal.
  
  **2.** Navigate to this folder by typing ```cd home/Downloads``` in the terminal.
  
- **3.** To get Anaconda 4.2 with Python 3.5 whl file type ```wget 
+ **3.** To get Anaconda 4.2 with Python 3.5 archieve file type ```wget Anaconda3-4.2.0-Linux-x86_64.sh```
