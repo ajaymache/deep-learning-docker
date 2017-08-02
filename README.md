@@ -105,4 +105,10 @@ This repository aims at getting you started with [docker](https://www.docker.com
  
   **2.** Navigate to this folder by typing ```cd home/Downloads``` in the terminal.
  
-  **3.** To get Anaconda 4.2 with Python 3.5 archieve file type ```wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh```
+  **3.** To get Anaconda 4.2 with Python 3.5 archive file type ```wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh``` in the terminal. This might take a while since the file is about **~385 MB**.
+  
+- After downloading the Anaconda file as explained in the previous section follow the steps below to complete the installation.
+
+  **1.** To initiate the installation type ```bash ./Anaconda3-4.2.0-Linux-x86_64.sh``` in the terminal and hit enter. You will be prompted to read and agree the License terms and conditions. keep pressing enter until you are asked to accept the license terms. Type Yes and hit enter to proceed.
+  
+  **2.** 
