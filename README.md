@@ -128,7 +128,18 @@ This repository aims at getting you started with [docker](https://www.docker.com
   <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-08-01%20at%2010.17.41%20PM.png">
   </p>
   
-  **2.** To start the container type ```docker container start -i CONTAINER ID``` in the terminal. This will again restart the container which we stopped before and you can verify it by looking at terminal which will be pointing to ```root@....```.
+  **2.** To start the container type ```docker container start -i CONTAINER ID``` in the terminal. This will again restart the container which we stopped before and you can verify it by looking at terminal which will be pointing to ```root@....```
   
   :warning: Do not forget to update the **CONTAINER ID** keyword with the _**actual container id**_ in **step 2** above while starting the container.
+  
+  **3.** To verify the **Anaconda** installation you could run the following commands in the terminal and they should execute without any errors.
+  ```bash
+  python --version
+  
+  pip --version
+  
+  which jupyter
+  ```
 
+### Installing deep learning frameworks
+- In this section we will be installing the most popular deep learning framework **TensorFlow** and **keras**. Note that while installing keras **Theano** another deep learning library will also be installed as its a dependency for keras. With these being installed you should be able to build most of your deep neural nets. Also note that this installation is for **CPU** version of **TensorFlow** only.
