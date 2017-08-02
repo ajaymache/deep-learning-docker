@@ -55,7 +55,7 @@ This repository aims at getting you started with [docker](https://www.docker.com
   **4.** To get the ubuntu image as the base image type the command ```docker pull ubuntu``` in the terminal. This might take a while depending on your internet speed because it is fetching the image from the dockerhub which is  available publicy for use. You should see the download progressing as shown below:
      
   <p align="center">
-  <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-07-31%20at%207.42.14%20PM.png">
+  <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-08-01%20at%208.17.52%20PM.png">
   </p>
      
   **5.** Now type ```docker images``` as mentioned in step 3 to see the list of images you have downloaded on your machine. You should see something like as shown in the snapshot below:
