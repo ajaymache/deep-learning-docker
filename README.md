@@ -178,7 +178,14 @@ This repository aims at getting you started with [docker](https://www.docker.com
 
   **1.** Note the **CONATINER ID** as explained previosuly by typing ```docker ps -a``` in the terminal.
   
-  **2.** Before we create an image of this container please go to [dockerhub](https://hub.docker.com/) and signup for a dockerhub account, because that is a cloud repository where we are gonna push our images. Also please note the username while creating your account since this will be required both while creating an image as well as pusing the image to the **dockerhub**.
+  **2.** Before we create an image of this container please go to [dockerhub](https://hub.docker.com/) and signup for a dockerhub account, because that is a cloud repository where we are going to push our images. Also please note the username while creating your account since this will be required both while creating an image as well as pusing the image to the **dockerhub**.
+  
+  **3.** Type ```docker commit CONTAINER ID yvariable/dl-image:test``` in the terminal to create your image. Replace the **CONTAINER ID** with the _**actual container id**_, **yvariavle** with your **USERNAME** and **dl-image** with any other name you would like to give to your docker image. Note that the ```:test``` after **dl-image** is the **tag** for that image, you can give a different tag if you wish to and if you dont give any it will use **latest** as the default tag. This step can take several minutes.
+  
+  **4.** Type ```docker images``` in the terminal and you should see your newly created image.
+  
+  
+  
 
 
   
