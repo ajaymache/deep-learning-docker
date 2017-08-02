@@ -111,6 +111,10 @@ This repository aims at getting you started with [docker](https://www.docker.com
 
   **1.** To initiate the installation type ```bash ./Anaconda3-4.2.0-Linux-x86_64.sh``` in the terminal and hit enter. You will be prompted to read and agree the **license terms and conditions**. keep pressing enter until you are asked to accept the license terms. Type **yes** and hit enter to proceed.
   
-  **2.** After you accept the license terms above you will be prompted with the message __*Anaconda3 will be now installed into the root location: ```/root/anaconda3```*__, we will go with the default settings and hence press enter to proceed. This might take a while to install and you can see the logs in the console.
+  **2.** After you accept the license terms above you will be prompted with the message __*Anaconda3 will be now installed into the root location:*__ ```/root/anaconda3```, we will go with the default settings and hence **press enter** to proceed. This might take a while to install and you can see the logs in the console.
   
   **3.** In the end you will be asked if you would like to append the Anaconda3 install location to **PATH** in your ```/root/.bashrc```. Type **yes** and hit enter to complete the installation.
+  
+  :warning: At this point the installation for **Anaconda** is complete but for the changes to come into effect we need to open a new terminal. One way is we can stop the running container and restart it in a new terminal window or we could simply attach the running container to a new terminal session. To keep it simple for this tutorial we will go with the first option.
+  
+  **4.** To stop the container type ```exit``` in the terminal and you will notice the terminal directory changes from ```root@....``` to your **home** directory.
