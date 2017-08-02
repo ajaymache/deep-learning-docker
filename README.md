@@ -115,7 +115,7 @@ This repository aims at getting you started with [docker](https://www.docker.com
   
   **3.** In the end you will be asked if you would like to append the Anaconda3 install location to **PATH** in your ```/root/.bashrc```. Type **yes** and hit enter to complete the installation.
   
-  :bulb: At this point the installation for **Anaconda** is complete but for the changes to come into effect we need to open a new terminal. One way is we can stop the running container and restart it in a new terminal window or we could simply attach the running container to a new terminal session. To keep it simple for this tutorial we will go with the first option.
+  :warning: At this point the installation for **Anaconda** is complete but for the changes to come into effect we need to open a new terminal. One way is we can stop the running container and restart it in a new terminal window or we could simply attach the running container to a new terminal session. To keep it simple for this tutorial we will go with the first option.
   
   **4.** To stop the container type ```exit``` in the terminal and you will notice the terminal directory changes from ```root@....``` to your **home** directory.
   
@@ -126,5 +126,5 @@ This repository aims at getting you started with [docker](https://www.docker.com
   
   **2.** To start the container type ```docker container start -i CONTAINER ID``` in the terminal. This will again restart the container which we stopped before and you can verify it by looking at terminal which will be pointing to ```root@CONATINER ID``` where **CONTAINER ID** is same as the previous one.
   
-  :warning: Do not froget to update the **CONTAINER ID** keyword with the _**actual CONTAINER ID**_ in **step 2** above while starting the container.
+  :warning: Do not forget to update the **CONTAINER ID** keyword with the _**actual container id**_ in **step 2** above while starting the container.
 
