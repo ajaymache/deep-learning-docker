@@ -85,4 +85,16 @@ This repository aims at getting you started with [docker](https://www.docker.com
   <p align="center">
   <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-08-01%20at%208.26.12%20PM.png">
   </p>
+  
+  ```bash
+  apt-get install -y wget
+  ```
+  
+  This command will get the **GNU Wget** which is a open source software package for retrieving files using HTTP, HTTPS and FTP.
+  
+  ```bash
+  apt-get install -y bzip2
+  ```
+  
+  This command will get the **bzip2** package which will be required to decompress some of the Anaconda files which we will see in the next section.
 
