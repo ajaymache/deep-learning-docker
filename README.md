@@ -69,11 +69,11 @@ This repository aims at getting you started with [docker](https://www.docker.com
 
   **1.** To run the **ubuntu** image type the command ```docker run -it ubuntu``` in the terminal. Note how the terminal changes pointing to the container which we spinned up just now as shown below:
 
-<p align="center">
+ <p align="center">
   <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-08-01%20at%208.21.01%20PM.png">
  </p>
   
-  **2.** In order to install the required machine learning/deep learning libraries and frameworks we frist need some tools since the ubuntu image we pulled is very basic and essentially comes only with the kernel and hence it is light weight which is the basically the whole idea of docker. Execute the following commands sequentially one after the other in the terminal to get the required tools.
+ **2.** In order to install the required machine learning/deep learning libraries and frameworks we frist need some tools since the ubuntu image we pulled is very basic and essentially comes only with the kernel and hence it is light weight which is the basically the whole idea of docker. Execute the following commands sequentially one after the other in the terminal to get the required tools.
   
   ```bash
   apt-get update
