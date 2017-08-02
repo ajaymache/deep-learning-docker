@@ -122,13 +122,13 @@ This repository aims at getting you started with [docker](https://www.docker.com
 ### Restarting the stopped container
 - To restart the stopped conatiner we need the **CONTAINER ID**. Follow the steps below to obtain the **CONTAINER ID** and restart the container.
 
-  **1.** To get the **CONATINER ID** type ```docker ps -a``` in the terminal. You will be listed with the **CONTAINER ID** and some more information about the container regarding when it was created, stopped etc. as shown below in the snapshot. Copy this **CONTAINER ID**.
+  **1.** To get the **CONATINER ID** type ```docker ps -a``` in the terminal. You will be listed with the **CONTAINER ID** and some more information about the container regarding when it was created, stopped etc. Copy this **CONTAINER ID**.
   
   <p align="center">
   <img src="https://github.com/ajaymache/getting-started-with-docker/blob/master/misc/images/Screen%20Shot%202017-08-01%20at%2010.17.41%20PM.png">
   </p>
   
-  **2.** To start the container type ```docker container start -i CONTAINER ID``` in the terminal. This will again restart the container which we stopped before and you can verify it by looking at terminal which will be pointing to ```root@CONATINER ID``` where **CONTAINER ID** is same as the previous one.
+  **2.** To start the container type ```docker container start -i CONTAINER ID``` in the terminal. This will again restart the container which we stopped before and you can verify it by looking at terminal which will be pointing to ```root@....```.
   
   :warning: Do not forget to update the **CONTAINER ID** keyword with the _**actual container id**_ in **step 2** above while starting the container.
 
