@@ -120,5 +120,9 @@ This repository aims at getting you started with [docker](https://www.docker.com
   **4.** To stop the container type ```exit``` in the terminal and you will notice the terminal directory changes from ```root@....``` to your **home** directory.
   
 ### Restarting the stopped container
-- To restart the stopped conatiner we need the **CONTAINER ID**. To get this type ```docker ps -a``` in the terminal.
+- To restart the stopped conatiner we need the **CONTAINER ID**. Follow the steps below to obtain the **CONTAINER ID** and restart the container.
+
+  **1.** To get the **CONATINER ID** type ```docker ps -a``` in the terminal. You will be listed with the **CONTAINER ID** and some more information about the container regarding when it was created, stopped etc. Copy this **CONTAINER ID**.
+  
+  **2.** To start the container type ```docker container start -i **CONTAINER ID**``` in the terminal.
 
