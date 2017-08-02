@@ -163,10 +163,23 @@ This repository aims at getting you started with [docker](https://www.docker.com
   print(sess.run(hello))
   ```
   
-  If the system outputs ```b'Hello, TensorFlow!'``` then you are ready to begin writing TensorFlow programs.
+  If the system outputs ```b'Hello, TensorFlow!'``` then you are ready to begin writing TensorFlow programs. Type ```exit()``` to exit from the python shell and return to the terminal.
   
   :warning: You might get some warnings related to tensorflow not being compiled to use multiple CPU cores available on your machine. You can ignore them for now.  
   
+  **5.** To install keras type ```pip install keras``` in the terminal. Note that this will also get **Theano**
   
+  **6.** To exit out of the _tensorflow conda environment_ we are currently in type ```source deactivate```. Note how the terminal changes.
+  
+  **7.** Now to stop the container and exit out of it type ```exit``` in the terminal. This will get back you to the host machine directory where you started with.
+  
+### Creating new image from the container
+- This is the last section where will be creating an image from the container we exited. The container we stopped and exited from persists all the libraries and installations we have done so far. Note that if we remove the container we no more have access to the changes we have made so far and hence it makes sense to make an image out of this container so that we could run a container from it anytime we want in future and for distribution purposes.
+
+  **1.** Note the **CONATINER ID** as explained previosuly by typing ```docker ps -a``` in the terminal.
+  
+  **2.** Before we create an image of this container please go to [dockerhub](https://hub.docker.com/) and signup for a dockerhub account, because that is a cloud repository where we are gonna push our images. Also please note the username while creating your account since this will be required both while creating an image as well as pusing the image to the **dockerhub**.
+
+
   
   
