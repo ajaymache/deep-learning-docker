@@ -154,7 +154,7 @@ This repository aims at getting you started with [docker](https://www.docker.com
   ```bash
   pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.2.1-cp35-cp35m-linux_x86_64.whl
   ```
-  **4.** To check tensorflow installation invoke the python kernel by typing ```python``` in the terminal first then type the following commands sequentially.
+  **4.** To check if tensorflow was successfull installed invoke the python kernel by typing ```python``` in the terminal first then type the following commands sequentially.
   
   ```python
   import tensorflow as tf
