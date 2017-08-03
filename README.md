@@ -176,14 +176,14 @@ This repository aims at getting you started with [docker](https://www.docker.com
   
   **2.** Before we create an image of this container please go to [dockerhub](https://hub.docker.com/) and signup for a dockerhub account, because that is a cloud repository where we are going to push our images. Also please note the username while creating your account since this will be required both while creating an image as well as pusing the image to the **dockerhub**.
   
-  **3.** Type ```docker commit CONTAINER ID yvariable/dl-image:test``` in the terminal to create your image. Replace the **CONTAINER ID** with the _**actual container id**_, **yvariavle** with your **USERNAME** and **dl-image** with any other name you would like to give to your docker image. Note that the ```:test``` after **dl-image** is the **tag** for that image, you can give a different tag if you wish to and if you dont give any it will use **latest** as the default tag. This step can take several minutes.
+  **3.** Type ```docker commit CONTAINER ID yvariable/dl-image:test``` in the terminal to create your image. Replace the **CONTAINER ID** with the _**actual container id**_, **yvariable** with your **USERNAME** and **dl-image** with any other name you would like to give to your docker image. Note that the ```:test``` after **dl-image** is the **tag** for that image, you can give a different tag if you wish to and if you dont give any it will use **latest** as the default tag. This step can take several minutes.
   
   **4.** Type ```docker images``` in the terminal and you should see your newly created image.
     
 ### Pushing docker image to dockerhub
 - You could keep the newly created docker image on your host machine but it would make more sense if you host it somewhere on a cloud server so that someone else can pull it and start using it or to server the purpose of collaboration if multiple people are woking on the same image (Same analogy as Github).
 
-- Before proceeding further make sure you have a **dockerhub** account. If not signup for one from [here](https://hub.docker.com/), also note the **username**.
+- Before proceeding further make sure you have a **dockerhub** account. If not signup for one from [here](https://hub.docker.com/), also note the **USERNAME**.
 
   **1.** Type ```docker login``` in the terminal. Enter your credentials and verify it with the **login successfull** message which will appear on the console.
   
