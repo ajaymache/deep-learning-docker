@@ -189,7 +189,7 @@ This repository aims at getting you started with [docker](https://www.docker.com
   
   **2.** Type ```docker push yvariable/dl-image:test``` in the terminal. This might take a few minutes as the image is large of the size **~2.7 GB** and is being pushed to the server.
   
-
+  :warning: Dont forget to replace **yvariavle** with your **USERNAME** and **dl-image** with any other name you would like to give to your docker image. Note that the **:test** after **dl-image** is the **tag** for that image, you can give a different tag if you wish to and if you dont give any it will use **latest** as the default tag.
 
   
   
