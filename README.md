@@ -191,5 +191,5 @@ This repository aims at getting you started with [docker](https://www.docker.com
   
   :warning: Dont forget to replace **yvariavle** with your **USERNAME** and **dl-image** with the name you gave to your docker image. Note that the **:test** after **dl-image** is the **tag** for that image replace it with the one you gave for your image, if you dont give any it will use **latest** as the default tag.
 
-  
+  :trophy: You can now visit **dockerhub** and verify that you have succesfully created your docker image and pushed to the **dockerhub** in your repository.
   
