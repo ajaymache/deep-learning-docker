@@ -197,3 +197,6 @@ This repository aims at getting you started with [docker](https://www.docker.com
 - You can now pull this image like any other image (as done for the base image **ubuntu**) from the **dockerhub** directly on your host machine by typing ```docker pull yvariable/dl-image:test``` in the terminal.
   
 ### References
+
+1. https://docker.com
+2. 
